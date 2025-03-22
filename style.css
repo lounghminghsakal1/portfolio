@@ -1139,9 +1139,6 @@ footer h1{
     .menu-icon{
         display: inline;
     }
-
-
-
 }
 
 
@@ -1220,88 +1217,85 @@ footer h1{
         padding: 10px 15px;
     }
 
-
-    .info-cards .card h1{
-        bottom: 34%;
+    .info-section{
+        margin-top: 0%;
     }
 
-    .card video{
-        width: 100%;
+    .info-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .info-cards .card:nth-child(1) h1{
+        bottom: 27%;
+    }
+
+    .info-cards .card:nth-child(3) h1{
+        bottom: 21%;
+    }
+    .info-cards .card:nth-child(3) button{
+        bottom: 3%;
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+    .info-cards .card:nth-child(2) h1{
+        bottom: 27%;
     }
 
     .project{
-        margin-bottom: 600px;
+        margin-top: 50px;
+        margin-bottom: 500px;
     }
 
-    .project-card{
-        flex-direction: column;
-        margin-left: 30%;
-        gap: 30px;
+    .project .project-info p{
+        margin-bottom: 20px;
     }
 
-    .project-info{
-        width: 85%;
+    .hover-sign{
+        display: none;
     }
 
-    .project-info h1{
-        text-wrap: nowrap;
-    }
-
-    .project-info p{
-        max-width: 300px;
-    }
-
-    .designer{
-        top: 20%;
-        left: 18%;
-    }
-
-    .coder{
-        top: 50%;
-        left: 13%;
+        
+    .skills-box{
+        height: 100vh;
     }
 
     .skills-box h1{
-        margin-bottom: 0;
-        margin-top: 70px;
+        margin-top: 30px;
+        font-size: 30px;
+        margin-bottom: 10px;
     }
 
-    .slider{
-        bottom: 0;
+    .skills-box p{
+        font-size: 15px;
     }
 
-    .slider img{
-        width: 60%;
+    
+    .slider .list .item img{
+        width: 70%;
     }
 
+    .contact-sec .sec-title{
+        top: -9px;
+        left: 25%;
+        font-size: 30px;
+    }
+
+    .social-box{
+        gap: 8px;
+    }
+
+    .contact-box p:nth-child(1){
+        display: none;
+    }
+
+    
     .contact-sec{
         flex-direction: column;
         margin-top: 100px;
         margin-bottom: 50px;
     }
-
-    .contact-sec .sec-title{
-        top: -40px;
-        left: 25%;
-    }
-
-    .social-icons{
-        margin-left: 20%;
-    }
-
-    footer h1{
-        font-size: 14px;
-    }
-
-    .project-vidbox{
-        min-width: 200px;
-    }
-    
-    .menu-icon{
-        display: inline;
-    } */
-
-
 
 }
 
